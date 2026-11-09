@@ -1,0 +1,11 @@
+# Build output
+build/
+dist/
+bin/
+obj/
+.vs/
+*.user
+
+# Packed FFmpeg engine (about 66 MB). build.ps1 creates it, and the finished
+# TrackTrim.exe is attached to each GitHub Release instead of being committed.
+src/TrackTrim/engine/
